@@ -15,8 +15,10 @@ import { NavLink } from "react-router-dom";
 function Home() {
   return (
     <div>
-      <p className="text-center text-xl lg:text-2xl mb-4">Level 01/Term 01</p>
+      <p className="text-center text-xl lg:text-2xl font-medium mb-4">Level 01/Term 01</p>
       <div className="sm:flex sm:flex-wrap justify-center">
+
+      <marquee className='bg-slate-100 py-2 my-4'>*Many of the materials are collected from other Departments.</marquee>
 
       <NavLink to="nce101"  className=' zoom sm:basis-[48.5%] lg:basis-[32%] xl:basis-[24.5%]'>
         <Course image={img5} title="nce 101" />
