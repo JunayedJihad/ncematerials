@@ -8,15 +8,15 @@ import { NavLink } from "react-router-dom";
 function Eee156() {
   return (
      <div className="sm:flex sm:flex-wrap justify-center">
-     <NavLink to="#"  className=' zoom sm:basis-[48.5%] lg:basis-[32%] xl:basis-[24.5%]'>
+     <NavLink to="https://buetedu-my.sharepoint.com/:f:/g/personal/2217008_nce_buet_ac_bd/Eoq1imORfU1KllhcVhXQACoBL1_mp2OzILU1OCGSocANmg?e=5aDbb6"  className=' zoom sm:basis-[48.5%] lg:basis-[32%] xl:basis-[24.5%]'>
           <Course image={img1} title="books" />
      </NavLink>
 
-     <NavLink to="#"  className=' zoom sm:basis-[48.5%] lg:basis-[32%] xl:basis-[24.5%]'>
+     <NavLink to="https://buetedu-my.sharepoint.com/:f:/g/personal/2217008_nce_buet_ac_bd/EugfdPIpbOtLtlzP_p6vpewBPgQExbjTEGV7-YBece6YVQ?e=Tf8Xb7"  className=' zoom sm:basis-[48.5%] lg:basis-[32%] xl:basis-[24.5%]'>
           <Course image={img2} title="slides" />
      </NavLink>
 
-     <NavLink to="#"  className=' zoom sm:basis-[48.5%] lg:basis-[32%] xl:basis-[24.5%]'>
+     <NavLink to="https://buetedu-my.sharepoint.com/:f:/g/personal/2217008_nce_buet_ac_bd/ErFSXO_em75IqUyn057yuTYBUHjNJ8UOF0BD-tiWAX6GBA?e=KpWI6I"  className=' zoom sm:basis-[48.5%] lg:basis-[32%] xl:basis-[24.5%]'>
           <Course image={img3} title="lab reports" />
      </NavLink>
 </div>

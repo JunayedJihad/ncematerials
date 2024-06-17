@@ -9,6 +9,7 @@ import img5 from "../assets/chemistry lab-rafiki.png";
 import img6 from "../assets/3d modeling-pana.png";
 import img7 from "../assets/beaker chemistry-bro.png";
 import img8 from "../assets/brain sides-cuate.png";
+import img9 from "../assets/Exams-rafiki.png";
 import { NavLink } from "react-router-dom";
 
 function Home() {
@@ -47,6 +48,10 @@ function Home() {
 
       <NavLink to="me174"  className='zoom sm:basis-[48.5%] lg:basis-[32%] xl:basis-[24.5%]'>
         <Course image={img6} title="me 174" />
+      </NavLink>
+
+      <NavLink to="https://buetedu-my.sharepoint.com/:f:/g/personal/2217008_nce_buet_ac_bd/EjNttpfdZu5BuI6QD2oeBbgBc75eXJQQrdcuR_dlSZs44A?e=I0kv8N"  className='zoom sm:basis-[48.5%] lg:basis-[32%] xl:basis-[24.5%]'>
+        <Course image={img9} title="TF Question" />
       </NavLink>
 
     </div>
