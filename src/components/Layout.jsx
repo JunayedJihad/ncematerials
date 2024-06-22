@@ -9,7 +9,7 @@ function Layout() {
                <p className='min-h-[40vh] text-white text-xl sm:text-2xl md:text-3xl flex justify-center items-center'>Nanomaterials and Ceramic Engineering</p>
           </div> */}
           <div>
-               <img className='h-[40vh] md:h-auto w-[100%]' src={banner} alt="" />
+               <img className='h-[40vh] md:h-auto w-[100%]' src={banner} alt="" loading='lazy' />
           </div>
           <div className='min-h-[75vh] py-6'>
                <Outlet/>
