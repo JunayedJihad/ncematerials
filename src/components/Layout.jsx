@@ -1,6 +1,6 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import banner from '../assets/nce-wallapaper-_1_.webp'
+import banner from '../assets/nce wallapaper (1).jpg'
 
 function Layout() {
   return (
